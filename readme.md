@@ -38,3 +38,23 @@ FlaskApp: Archivo principal para configurar e iniciar la aplicación Flask.
 Exceptions: Manejo centralizado de excepciones específicas de la aplicación.
 Utils: Funciones de utilidad, como eliminación de archivos temporales.
 Tests: Plantillas de pruebas unitarias para verificar la funcionalidad de los servicios.
+
+
+https://github.com/MarceloTigrero/Transcribe_Service_Open
+
+---------------------CREACION-------------------
+git init
+git add .
+git commit -m "Primer commit"
+gh auth login
+gh repo create Transcribe_Service_Open --public --source=. --remote=origin
+git push -u origin master
+---------------------SUBIR-------------------
+git status
+git add . o' git add nombre_del_archivo
+git commit -m "Descripción de los cambios"
+git push o' git push origin nombre_de_la_rama
+
+
+
+

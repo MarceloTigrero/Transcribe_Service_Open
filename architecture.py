@@ -22,3 +22,4 @@ for folder, files in structure.items():
         print(f"Archivo creado: {file_path}")
 
 print("Estructura de carpetas y archivos creada correctamente.")
+# prueba de toda la architectura
